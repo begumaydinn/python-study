@@ -1,0 +1,19 @@
+#  The Most Frequent Element
+
+#After finishing the task correctly, then submit your answer (code) as plain text which shows you did correctly.
+#Task : Find out the most frequent number and its frequency.
+
+#Write a program that;
+
+#Finds out the most frequent number in the given list.
+#Calculates its frequency.
+#Prints out the result such as :
+
+
+#input
+
+lst=[1,7,0,4,7,3,4,3,6,7]
+
+print(max(lst, key=lst.count)) # buradan sonucun 7 olduğunu anlıyoruz
+
+print(lst.count(7)) # buradan da 7'nin kaç defa tekrar ettiğini gösteriyoruz
