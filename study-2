@@ -1,0 +1,21 @@
+#Measure Converter
+
+#Task-1:
+
+#Write a short Python program that asks the user to enter Celsius temperature (it can be a decimal number), 
+#converts the entered temperature into Fahrenheit degree and prints the result.
+
+
+c = float(input("Dereceyi giriniz :"))
+f = float((c*(180/100)) + 32)
+print("Derecenin Fahrenheit cinsinden değeri: {}".format(f))
+
+#Task-2:
+
+#Write a short Python program that asks the user to enter a distance (it can be a decimal number) in kilometers, 
+#converts the entered distance into miles and prints the result.
+
+km = float(input("Kilometreyi gir :"))
+mil = float(km*0.6214)
+print("Kilometrenin mil değeri :", float(mil) )
+
