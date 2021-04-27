@@ -1,0 +1,23 @@
+#Profit Calculator
+#Problem : If you had deposited a coin on the cryptocurrency exchange that 
+#brought 7% fixed profit daily for a week, how much would your $ 1000 reach at the end of the 7th day?
+
+#input:
+a=100
+a=a+(a*0.07) #1
+a=a+(a*0.07) #2
+a=a+(a*0.07) #3
+a=a+(a*0.07) #4
+a=a+(a*0.07) #5
+a=a+(a*0.07) #6
+a=a+(a*0.07) #7
+a
+#output:
+160.57814764784302
+
+#input:
+
+100000/a
+
+#output:
+622.7497418845911
